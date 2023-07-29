@@ -58,7 +58,7 @@ Topics:
   parent inherit:
     
 Session Task:
-  Display the below images in a flex-box
+  Display the below images in a flex-box in row with wrap behavior,
     1. https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png
     2. https://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png
     3. https://upload.wikimedia.org/wikipedia/commons/5/53/Wikimedia-logo.png
