@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <style>
+    h1 {
+      color: red !important;
+      font-style: normal;
+    }
+
+    div {
+      /* All sides(top, right, bottom, left) */
+      padding: 16px;
+
+      /* Axis wise( Y X ) */
+      padding: 10px 16px;
+
+      /* top sides bottom */
+      padding: 10px 16px 10px;
+
+      /* Specific for all sides */
+      padding: 10px 16px 10px 16px;
+
+      padding-top: 10px;
+      padding-right: 16px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+
+
+      /* All sides(top, right, bottom, left) */
+      margin: 16px;
+
+      /* Axis wise( Y X ) */
+      margin: 10px 16px;
+
+      /* top sides bottom */
+      margin: 10px 16px 10px;
+
+      /* Specific for all sides */
+      margin: 10px 16px 10px 16px;
+
+      margin-top: 10px;
+      margin-right: 16px;
+      margin-bottom: 10px;
+      margin-left: 16px;
+
+      /* width style color */
+      border: 10px double red;
+
+      border-top: 10px dotted green;
+      border-right: 10px dashed violet;
+      border-bottom: 10px solid blue;
+      border-left: 10px double lightcoral;
+
+    }
+
+
+    .square {
+      height: 200px;
+      width: 200px;
+      color: green;
+    }
+
+    .radius {
+      border-radius: 50%;
+    }
+
+    .oneMoreDiv {
+      border-top: 20px solid green;
+      border-right: 20px solid violet;
+      border-bottom: 20px solid blue;
+      border-left: 20px solid lightcoral;
+      color: red;
+    }
+  </style>
+
+  <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+
+<body>
+  <h1 style="color: green !important">B49WEENG</h1>
+
+  <div>
+    Some Content
+  </div>
+
+  <div class="square radius oneMoreDiv">
+    <h2>B49WEENG</h2>
+  </div>
+
+  <div class="oneMoreDiv" style="border-width: 5px">
+  </div>
+
+  <div style="border: 3px dotted green; padding: 16px; height: 100px; width: 100px;">
+    <section style="border: inherit; padding: 16px; height: 50px; width: 50px;">
+    </section>
+  </div>
+
+</body>
+
+</html>

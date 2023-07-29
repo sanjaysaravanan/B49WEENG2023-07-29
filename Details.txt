@@ -1,0 +1,74 @@
+
+Topics:
+
+  use of important:
+
+    ways to use CSS
+      inline
+      internal
+      external
+    
+    priority: 
+      inline > internal/external( depending on the order of execution )
+
+    priority overriding: using important keyword
+
+    class
+
+  box model:
+    content:
+      innermost of the box model
+      any inner child/children inside a tag
+  
+    padding:
+      comes between the content and border
+      clockwise: top, right, bottom, left
+
+    border:
+      comes between the padding and margin
+
+    margin:
+      outermost layer of boxmodel
+
+  display prop values:
+    inline --> takes only the essential width/height even with width/height props
+
+    block --> takes the entire width of the parent
+    
+    inline-block --> takes the effect of the width/height along with inline behavior
+
+  Flex - 
+    display: flex;
+
+    flex-box is container which has a display value to be **flex**
+    Takes the control on height/width of the children
+
+
+    flex-direction:
+      row --> childs are arranged in side-by-side manner
+      column --> childs are arranged in one-below-other manner
+
+    flex-wrap:
+      nowrap --> no wrapping will happen
+      wrap --> wrap the children look better
+    
+    flex-flow: 
+      specifies both flex direct and wrap property values    
+
+  parent inherit:
+    
+Session Task:
+  Display the below images in a flex-box
+    1. https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png
+    2. https://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png
+    3. https://upload.wikimedia.org/wikipedia/commons/5/53/Wikimedia-logo.png
+
+Next Seesion:
+  gradient
+
+  Alignment using flex box:
+    justify-content
+    align-content  
+  position property: fixed,static,relative,absolute,sticky
+  
+    
